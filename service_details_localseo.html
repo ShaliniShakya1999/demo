@@ -82,189 +82,139 @@
 
     <!-- Header -->
 
-  <header class="header" id="site-header">
-	<a href="#" id="top-bar-js" class="top-bar-link">
-		<i class="seosight-icon seoicon-arrow-to-bottom"></i>
-	</a>
+    <header class="header" id="site-header">
+      <a href="#" id="top-bar-js" class="top-bar-link">
+        <i class="seosight-icon seoicon-arrow-to-bottom"></i>
+      </a>
 
-	<div class="container">
+      <div class="container">
+        <div class="header-content-wrapper">
+          <div class="logo">
+            <a href="index.html" class="full-block-link"></a>
+            <img
+              loading="lazy"
+              style="width: 100px; height: 100px"
+              src="img/logo-eye.png"
+              alt="F6IT"
+            />
+          </div>
 
-		<div class="header-content-wrapper">
+          <nav id="primary-menu" class="primary-menu">
+            <a
+              href="javascript:void(0)"
+              id="menu-icon-trigger"
+              class="menu-icon-trigger showhide"
+            >
+              <span class="mob-menu--title">Menu</span>
+              <span
+                id="menu-icon-wrapper"
+                class="menu-icon-wrapper"
+                style="visibility: hidden"
+              >
+                <svg width="1000px" height="1000px">
+                  <path
+                    id="pathD"
+                    d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"
+                  ></path>
+                  <path id="pathE" d="M 300 500 L 700 500"></path>
+                  <path
+                    id="pathF"
+                    d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"
+                  ></path>
+                </svg>
+              </span>
+            </a>
 
-			<div class="logo">
-				<a href="index.html" class="full-block-link"></a>
-				<img loading="lazy" style="width: 100px;height: 100px;"  src="img/logo-eye.png" alt="F6IT">
-			
-			</div>
+            <!-- menu-icon-wrapper -->
 
-			<nav id="primary-menu" class="primary-menu">
+            <ul class="primary-menu-menu">
+              <li class="menu-item-has-children">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="abouts.html">About Us</a>
+              </li>
+              <li class="">
+                <a href="services.html">Services</a>
+                <ul class="dropdown">
+                  <li class="megamenu-item-info">
+                    <h5 class="megamenu-item-info-title">List of Services</h5>
+                    <p class="megamenu-item-info-text">Choose a Service</p>
+                  </li>
+                  <li class="hover-ver2">
+                    <a href="service_details_localseo.html"
+                      ><i class="seoicon-pin-map"></i>
+                      Local SEO
+                    </a>
+                  </li>
+                  <li class="hover-ver2">
+                    <a href="service_email_marketing.html"
+                      ><i class="seoicon-mail-send"></i>
+                      Email Marketing
+                    </a>
+                  </li>
+                  <li class="hover-ver2">
+                    <a href="service_detail.html"
+                      ><i class="seoicon-chat-comment"></i>
+                      Social Media Marketing
+                    </a>
+                  </li>
+                  <li class="menu-item-has-children hover-ver2">
+                    <a href="service_detail_seo.html">
+                      <i class="seoicon-search"></i>
+                      Search Engine Optimization
+                    </a>
+                  </li>
+                  <li class="hover-ver2">
+                    <a href="service_ppc_management.html"
+                      ><i class="seoicon-button"></i>
+                      Pay Per Click Management
+                    </a>
+                  </li>
+                </ul>
+              </li>
 
-				<a href='javascript:void(0)' id="menu-icon-trigger" class="menu-icon-trigger showhide">
-					<span class="mob-menu--title">Menu</span>
-					<span id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: hidden">
-						<svg width="1000px" height="1000px">
-							<path id="pathD" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
-							<path id="pathE" d="M 300 500 L 700 500"></path>
-							<path id="pathF" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
-						</svg>
-					</span>
-				</a>
+              <li class="">
+                <a href="contacts.html">Contacts</a>
+              </li>
+            </ul>
+          </nav>
 
-				<!-- menu-icon-wrapper -->
+          <ul class="nav-add">
+            <li class="cart">
+              <a href="#" class="js-cart-animate">
+                <i class="seoicon-basket"></i>
+                <span class="cart-count">0</span>
+              </a>
 
-				<ul class="primary-menu-menu">
-					<li class="menu-item-has-children">
-						<a href="index.html">Home</a>
-					</li>
+              <div class="cart-popup-wrap">
+                <div class="popup-cart">
+                  <h4 class="title-cart">No products in the cart!</h4>
+                  <p class="subtitle">Please make your choice.</p>
+                  <div class="btn btn-small btn--dark">
+                    <span class="text">view all catalog</span>
+                  </div>
+                </div>
+              </div>
+            </li>
 
-					<li class="">
-						<a href="services.html">Services</a>
-						<ul class="dropdown">
-							<li class="megamenu-item-info">
-								<h5 class="megamenu-item-info-title">List of Services</h5>
-								<p class="megamenu-item-info-text">Choose a Service</p>
-							</li>
-							<li class="hover-ver2">
-								<a href="service_details_localseo.html"><i class="seoicon-pin-map"></i>
-									Local SEO
-								</a>
-							</li>
-							<li class="hover-ver2">
-								<a href="service_email_marketing.html"><i class="seoicon-mail-send"></i>
-									Email Marketing
-								</a>
-							</li>
-							<li class="hover-ver2">
-								<a href="service_detail.html"><i class="seoicon-chat-comment"></i>
-									Social Media Marketing
-								</a>
-							</li>
-							<li class="menu-item-has-children hover-ver2">
-								<a href="service_detail_seo.html">
-									<i class="seoicon-search"></i>
-									Search Engine Optimization
-								</a>
-							</li>
-							<li class="hover-ver2">
-								<a href="service_ppc_management.html"><i class="seoicon-button"></i>
-									Pay Per Click Management
-								</a>
-							</li>
-						
-						</ul>
-					</li>
+            <li class="search search_main">
+              <a href="#" class="js-open-search">
+                <i class="seoicon-loupe"></i>
+              </a>
+            </li>
+          </ul>
 
-					<li class="">
-						<a href="#">Case Studies</a>
-						<ul class="dropdown">
-							<li class="">
-								<a href="case_studies.html">
-									Case Studies Page
-									<i class="seoicon-right-arrow"></i>
-								</a>
-							</li>
-
-						
-							<li class="">
-								<a href="project_details_ver_02.html">
-									Project details ver2
-									<i class="seoicon-right-arrow"></i>
-								</a>
-							</li>
-						</ul>
-					</li>
-
-					<li class="has-megamenu menu-item-has-children">
-						<a href="#">Pages</a>
-
-						<div class="megamenu" style="background-image: url('img/menu-bg.png');">
-							<div class="megamenu-row">
-
-								<div class="col6">
-									<ul>
-										<li class="megamenu-item-info">
-											<h5 class="megamenu-item-info-title">Standard Pages</h5>
-											<p class="megamenu-item-info-text">Pages that every website needs.</p>
-										</li>
-
-										<li>
-											<a href="abouts.html">Our Agency<i class="seoicon-right-arrow"></i></a>
-										</li>
-									
-
-
-										<li>
-											<a href="our_clients.html">Our Special Clients<i class="seoicon-right-arrow"></i></a>
-										</li>
-
-									</ul>
-								</div>
-
-
-
-								<div class="col6">
-									<ul>
-										<li>
-											<div class="google-logo">
-												<img loading="lazy" src="img/google-logo.png" alt="logo">
-											</div>
-
-											<p class="google-text">At F6IT – SEO & Digital Marketing, we combine SEO, paid advertising, and performance marketing to help businesses reach the right audience, generate quality leads, and achieve measurable growth.
-											</p>
-										</li>
-									</ul>
-								</div>
-
-							</div>
-						</div>
-					</li>
-
-
-					<li class="">
-						<a href="contacts.html">Contacts</a>
-					</li>
-				</ul>
-			</nav>
-
-			<ul class="nav-add">
-				<li class="cart">
-
-					<a href="#" class="js-cart-animate">
-						<i class="seoicon-basket"></i>
-						<span class="cart-count">0</span>
-					</a>
-
-					<div class="cart-popup-wrap">
-						<div class="popup-cart">
-							<h4 class="title-cart">No products in the cart!</h4>
-							<p class="subtitle">Please make your choice.</p>
-							<div class="btn btn-small btn--dark">
-								<span class="text">view all catalog</span>
-							</div>
-						</div>
-					</div>
-
-				</li>
-
-				<li class="search search_main">
-					<a href="#" class="js-open-search">
-						<i class="seoicon-loupe"></i>
-					</a>
-				</li>
-			</ul>
-
-			<div class="user-menu open-overlay">
-				<a href="#" class="user-menu-content  js-open-aside">
-					<span></span>
-					<span></span>
-					<span></span>
-				</a>
-			</div>
-		</div>
-
-	</div>
-
-</header>
+          <div class="user-menu open-overlay">
+            <a href="#" class="user-menu-content js-open-aside">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
 
     <!-- ... End Header -->
 
@@ -282,12 +232,17 @@
 
           <div class="logo">
             <a href="index.html" class="full-block-link"></a>
-            <img loading="lazy" style="width: 100px;height: 100px;"  src="img/logo-eye.png" alt="F6IT" />
-          
+            <img
+              loading="lazy"
+              style="width: 100px; height: 100px"
+              src="img/logo-eye.png"
+              alt="F6IT"
+            />
           </div>
 
           <p class="text">
-            We implement data-driven SEO and digital marketing strategies that consistently attract, engage, and convert the right audience.
+            We implement data-driven SEO and digital marketing strategies that
+            consistently attract, engage, and convert the right audience.
           </p>
         </div>
 
@@ -329,7 +284,9 @@
         <div class="widget contacts">
           <h4 class="contacts-title">Get In Touch</h4>
           <p class="contacts-text">
-           We boost your online presence with powerful SEO and digital marketing strategies that deliver real results. </p>
+            We boost your online presence with powerful SEO and digital
+            marketing strategies that deliver real results.
+          </p>
 
           <div class="contacts-item">
             <img loading="lazy" src="img/contact4.png" alt="phone" />
@@ -362,578 +319,741 @@
 
     <!-- ... End Right-menu -->
 
-   	<div class="content-wrapper">
-
-		<!-- Stunning-header -->
-
-		<div class="stunning-header stunning-header-bg-breez">
-			<div class="stunning-header-content">
-				<h1 class="stunning-header-title">Local SEO</h1>
-				<ul class="breadcrumbs">
-					<li class="breadcrumbs-item">
-						<a href="index.html">Home</a>
-						<i class="seoicon-right-arrow"></i>
-						<a href="services.html">Services</a>
-						<i class="seoicon-right-arrow"></i>
-					</li>
-					<li class="breadcrumbs-item active">
-						<span href="#">Local SEO</span>
-						<i class="seoicon-right-arrow"></i>
-					</li>
-				</ul>
-			</div>
-		</div>
-
-		<!-- End Stunning-header -->
-
-		<!-- Overlay Search -->
-
-		<div class="overlay_search">
-			<div class="container">
-				<div class="row">
-					<div class="form_search-wrap">
-						<form>
-							<input class="overlay_search-input" placeholder="Type and hit Enter..." type="text">
-							<a href="#" class="overlay_search-close">
-								<span></span>
-								<span></span>
-							</a>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- End Overlay Search -->
-
-		<div class="container-fluid">
-			<div class="row pt120">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-							<div class="heading align-center pb120">
-								<h4 class="h1 heading-title">
-									Local SEO That Brings Real Customers to Your Business
-								</h4>
-								<div class="heading-line">
-									<span class="short-line"></span>
-									<span class="long-line"></span>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="local-seo">
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-								<img loading="lazy" src="img/local-seo1.jpg" alt="F6IT Local SEO Strategy">
-								<img loading="lazy" src="img/local-seo2.jpg" alt="Google Maps Local SEO">
-								<img loading="lazy" src="img/local-seo-main.jpg" alt="Local SEO Growth for Businesses" class="shadow-image">
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-
-			<div class="row medium-padding120 bg-border-color">
-				<div class="container">
-
-					<div class="row align-center">
-
-						<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-							<div class="h5 c-gray pt100">
-								F6IT helps local businesses rank higher in local search results and Google Maps.
-								We optimize your Google Business Profile, location-based keywords, and reviews
-								to increase visibility, foot traffic, and local leads.
-							</div>
-
-							<div class="btn btn-medium btn--blue btn-hover-shadow mt60">
-								<span class="text">Start Your Local SEO Campaign</span>
-								<span class="semicircle"></span>
-							</div>
-
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-
-		<div class="container">
-			<div class="row medium-padding120">
-
-				<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 mb30">
-					<img loading="lazy" src="img/local-seo3.jpg" alt="F6IT Local SEO Services">
-				</div>
-
-				<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-					<div class="heading">
-
-						<h3 class="h3 heading-title">
-							Boost Your Local Visibility & Attract Nearby Customers
-						</h3>
-
-						<p>
-							F6IT helps local businesses stand out in local search results through targeted
-							Local SEO strategies. From Google Business Profile optimization to local keywords
-							and reputation management, we drive more calls, visits, and leads for your business.
-						</p>
-
-					</div>
-
-					<a href="contacts.html" class="btn btn-medium btn--light-green btn-hover-shadow">
-						<span class="text">Get a Free Local SEO Quote</span>
-						<span class="semicircle"></span>
-					</a>
-				</div>
-
-			</div>
-		</div>
-
-
-		<!-- Skills -->
-		<div class="container-fluid">
-			<div class="row medium-padding120 bg-boxed-black">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-							<div class="heading">
-
-								<h4 class="h1 heading-title c-white">Our Core Expertise</h4>
-
-								<div class="heading-line">
-									<span class="short-line"></span>
-									<span class="long-line"></span>
-								</div>
-
-								<p class="mb30">
-									At F6IT, we combine strategy, creativity, and data-driven insights to deliver
-									measurable digital growth. Our expertise helps brands improve visibility,
-									engagement, and conversions across all major digital channels.
-								</p>
-
-							</div>
-
-							<a href="21_seo_analysis.html" class="btn btn-medium btn--olive btn-hover-shadow mb30">
-								<span class="text">Free SEO Consultation</span>
-								<span class="semicircle"></span>
-							</a>
-						</div>
-
-						<div class="col-lg-7 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
-							<div class="skills">
-								<div class="skills-item">
-									<div class="skills-item-info">
-										<span class="skills-item-title">Content Marketing Strategy</span>
-										<span class="skills-item-count">
-											<span class="count-animate" data-speed="1000" data-refresh-interval="50" data-to="75" data-from="0"></span>
-											<span class="units">%</span>
-										</span>
-									</div>
-									<div class="skills-item-meter">
-										<span class="skills-item-meter-active bg-orange-color border-orange-color" style="width: 75%"></span>
-									</div>
-								</div>
-
-								<div class="skills-item">
-									<div class="skills-item-info">
-										<span class="skills-item-title">SEO & Digital Consulting</span>
-										<span class="skills-item-count">
-											<span class="count-animate" data-speed="1000" data-refresh-interval="50" data-to="90" data-from="0"></span>
-											<span class="units">%</span>
-										</span>
-									</div>
-
-									<div class="skills-item-meter">
-										<span class="skills-item-meter-active bg-green-color border-green-color" style="width: 90%"></span>
-									</div>
-								</div>
-
-								<div class="skills-item">
-									<div class="skills-item-info">
-										<span class="skills-item-title">Mobile & Performance Marketing</span>
-										<span class="skills-item-count">
-											<span class="count-animate" data-speed="1000" data-refresh-interval="50" data-to="65" data-from="0"></span>
-											<span class="units">%</span>
-										</span>
-									</div>
-
-									<div class="skills-item-meter">
-										<span class="skills-item-meter-active bg-secondary-color border-secondary-color" style="width: 65%"></span>
-									</div>
-								</div>
-
-								<div class="skills-item">
-									<div class="skills-item-info">
-										<span class="skills-item-title">Brand Reputation Management</span>
-										<span class="skills-item-count">
-											<span class="count-animate" data-speed="1000" data-refresh-interval="50" data-to="70" data-from="0"></span>
-											<span class="units">%</span>
-										</span>
-									</div>
-
-									<div class="skills-item-meter">
-										<span class="skills-item-meter-active bg-primary-color border-primary-color" style="width: 70%"></span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<!-- End Skills -->
-
-		<!-- Testimonials Slider -->
-
-		<div class="container-fluid">
-			<div class="row medium-padding120 bg-border-color">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-
-							<div class="testimonial-arrow-slider">
-
-								<div class="heading">
-									<h4 class="h1 heading-title">What Our Clients Say</h4>
-
-									<div class="heading-line">
-										<span class="short-line"></span>
-										<span class="long-line"></span>
-									</div>
-								</div>
-
-								<div class="swiper-container pagination-bottom">
-
-									<div class="swiper-wrapper">
-
-										<div class="case-slider-item swiper-slide">
-											<div class="testimonial-item testimonial-arrow mb30">
-												<div class="testimonial-text">
-													F6IT helped us improve our Google rankings and generate consistent organic leads.
-													Their SEO strategy delivered real results within months.
-												</div>
-
-												<div class="author-info-wrap table">
-													<div class="testimonial-img-author table-cell">
-														<img loading="lazy" src="img/avatar3.png" alt="client">
-													</div>
-													<div class="author-info table-cell">
-														<h6 class="author-name">Rahul Mehta</h6>
-														<div class="author-company c-primary">E-Commerce Business Owner</div>
-													</div>
-												</div>
-
-												<div class="quote">
-													<i class="seoicon-quotes"></i>
-												</div>
-											</div>
-										</div>
-
-										<div class="case-slider-item swiper-slide">
-											<div class="testimonial-item testimonial-arrow mb30">
-												<div class="testimonial-text">
-													The F6IT team is highly professional and transparent. Our website traffic
-													and conversions increased significantly after their SEO audit.
-												</div>
-
-												<div class="author-info-wrap table">
-													<div class="testimonial-img-author table-cell">
-														<img loading="lazy" src="img/avatar3.png" alt="client">
-													</div>
-													<div class="author-info table-cell">
-														<h6 class="author-name">Anita Sharma</h6>
-														<div class="author-company c-primary">Startup Founder</div>
-													</div>
-												</div>
-
-												<div class="quote">
-													<i class="seoicon-quotes"></i>
-												</div>
-											</div>
-										</div>
-
-										<div class="case-slider-item swiper-slide">
-											<div class="testimonial-item testimonial-arrow mb30">
-												<div class="testimonial-text">
-													Thanks to F6IT’s Local SEO strategy, our business now appears on Google Maps
-													and receives regular customer calls.
-												</div>
-
-												<div class="author-info-wrap table">
-													<div class="testimonial-img-author table-cell">
-														<img loading="lazy" src="img/avatar3.png" alt="client">
-													</div>
-													<div class="author-info table-cell">
-														<h6 class="author-name">Sandeep Verma</h6>
-														<div class="author-company c-primary">Local Service Provider</div>
-													</div>
-												</div>
-
-												<div class="quote">
-													<i class="seoicon-quotes"></i>
-												</div>
-											</div>
-										</div>
-
-									</div>
-
-									<div class="swiper-pagination"></div>
-
-								</div>
-
-							</div>
-						</div>
-
-
-						<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-							<div class="heading mb60">
-								<h4 class="h1 heading-title">Frequently Asked Questions</h4>
-
-								<div class="heading-line">
-									<span class="short-line"></span>
-									<span class="long-line"></span>
-								</div>
-							</div>
-
-							<div id="accordion" class="crumina-module crumina-accordion">
-
-								<div class="card accordion-panel">
-									<div class="card-header panel-heading" id="headingOne">
-										<button class="btn-link accordion-heading" data-toggle="collapse" data-target="#collapseOne">
-											<span class="icon"><i class="fa fa-angle-right"></i></span>
-											<span class="title">How long does SEO take to show results?</span>
-										</button>
-									</div>
-
-									<div id="collapseOne" class="panel-collapse collapse show" data-parent="#accordion">
-										<div class="card-body">
-											<div class="panel-info">
-												SEO is a long-term strategy. With F6IT, most clients start seeing improvements
-												in rankings and traffic within 3–4 months, depending on competition.
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="card accordion-panel">
-									<div class="card-header panel-heading" id="headingTwo">
-										<button class="btn-link accordion-heading collapsed" data-toggle="collapse" data-target="#collapseTwo">
-											<span class="icon"><i class="fa fa-angle-right"></i></span>
-											<span class="title">Do you provide Local SEO services?</span>
-										</button>
-									</div>
-
-									<div id="collapseTwo" class="panel-collapse collapse" data-parent="#accordion">
-										<div class="card-body">
-											<div class="panel-info">
-												Yes, F6IT specializes in Local SEO including Google Business Profile optimization,
-												local keyword targeting, and review management.
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="card accordion-panel">
-									<div class="card-header panel-heading" id="headingThree">
-										<button class="btn-link accordion-heading collapsed" data-toggle="collapse" data-target="#collapseThree">
-											<span class="icon"><i class="fa fa-angle-right"></i></span>
-											<span class="title">Is your SEO approach safe?</span>
-										</button>
-									</div>
-
-									<div id="collapseThree" class="panel-collapse collapse" data-parent="#accordion">
-										<div class="card-body">
-											<div class="panel-info">
-												Absolutely. We follow only white-hat, Google-approved SEO techniques to ensure
-												long-term and risk-free growth.
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="card accordion-panel">
-									<div class="card-header panel-heading" id="headingFour">
-										<button class="btn-link accordion-heading collapsed" data-toggle="collapse" data-target="#collapseFour">
-											<span class="icon"><i class="fa fa-angle-right"></i></span>
-											<span class="title">Can I get a free SEO consultation?</span>
-										</button>
-									</div>
-
-									<div id="collapseFour" class="panel-collapse collapse" data-parent="#accordion">
-										<div class="card-body">
-											<div class="panel-info">
-												Yes! F6IT offers a free SEO consultation and website audit to help you understand
-												your current performance and growth opportunities.
-											</div>
-										</div>
-									</div>
-								</div>
-
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<!-- End Testimonials Slider -->
-
-		<!-- Info Box -->
-
-		<div class="container-fluid">
-			<div class="row medium-padding120 bg-orange-color">
-				<div class="container">
-					<div class="row mb30">
-						<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-							<div class="heading align-center">
-								<h4 class="h1 heading-title">Professional Tools for Business Growth</h4>
-								<div class="heading-line">
-									<span class="short-line bg-yellow-color"></span>
-									<span class="long-line bg-yellow-color"></span>
-								</div>
-								<p class="heading-text c-white">
-									We use proven digital tools and strategies to boost visibility, traffic, and conversions.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="row">
-						<!-- Box 1 -->
-						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-							<div class="info-box--standard">
-								<div class="info-box-image">
-									<img loading="lazy" src="img/info-box23.png" alt="Keyword Research">
-								</div>
-								<div class="info-box-content">
-									<h5 class="info-box-title">Advanced Keyword Research</h5>
-									<p class="text c-white">
-										We identify high-impact keywords that your customers are actively searching for,
-										helping your business rank higher and attract quality traffic.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<!-- Box 2 -->
-						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-							<div class="info-box--standard">
-								<div class="info-box-image">
-									<img loading="lazy" src="img/info-box24.png" alt="Expert Team">
-								</div>
-								<div class="info-box-content">
-									<h5 class="info-box-title">Expert Digital Marketing Team</h5>
-									<p class="text c-white">
-										Our experienced team delivers result-driven SEO, marketing, and branding solutions
-										tailored to grow your business effectively.
-									</p>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<!-- End Info Box -->
-
-
-		<!-- Contact Form -->
-
-	<div class="container">
-	<div class="row medium-padding120">
-		<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-			<div class="heading">
-				<h4 class="h1 heading-title">
-					Check How SEO-Ready Your Website Is
-				</h4>
-				<div class="heading-line">
-					<span class="short-line"></span>
-					<span class="long-line"></span>
-				</div>
-
-				<h5 class="heading-subtitle">
-					Grow your business online with F6IT’s expert SEO & digital marketing solutions.
-				</h5>
-
-				<p>
-					Our experienced SEO professionals analyze your website to identify issues,
-					improvement opportunities, and growth strategies that drive higher rankings
-					and better conversions.
-				</p>
-			</div>
-		</div>
-
-		<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-
-			<form class="contact-form crumina-submit" data-nonce="crumina-submit-form-nonce" data-type="standard" action="">
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-						<input name="site" class="input-standard-grey" placeholder="Website URL" type="text" required>
-					</div>
-
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-						<input name="name" class="input-standard-grey" placeholder="Your Name" type="text" required>
-					</div>
-
-				</div>
-
-				<div class="row">
-
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-						<input name="email" class="input-standard-grey" placeholder="Business Email Address" type="email" required>
-					</div>
-
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-						<input name="phone" class="input-standard-grey" placeholder="Phone Number" type="text">
-					</div>
-
-				</div>
-
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<textarea name="message" class="input-standard-grey" placeholder="Tell us about your business & goals"></textarea>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="submit-block table">
-						<div class="col-lg-3 table-cell">
-							<button class="btn btn-small btn--primary">
-								<span class="text">Get Free SEO Report</span>
-							</button>
-						</div>
-
-						<div class="col-lg-5 table-cell">
-							<div class="submit-block-text">
-								Share any specific SEO concerns and the best time for us to contact you.
-								Our F6IT experts will get back to you shortly.
-							</div>
-						</div>
-					</div>
-				</div>
-			</form>
-
-		</div>
-	</div>
-</div>
-
-
-		<!-- End Contact Form -->
-
-
-
-	</div>
+    <div class="content-wrapper">
+      <!-- Stunning-header -->
+
+      <div class="stunning-header stunning-header-bg-breez">
+        <div class="stunning-header-content">
+          <h1 class="stunning-header-title">Local SEO</h1>
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs-item">
+              <a href="index.html">Home</a>
+              <i class="seoicon-right-arrow"></i>
+              <a href="services.html">Services</a>
+              <i class="seoicon-right-arrow"></i>
+            </li>
+            <li class="breadcrumbs-item active">
+              <span href="#">Local SEO</span>
+              <i class="seoicon-right-arrow"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- End Stunning-header -->
+
+      <!-- Overlay Search -->
+
+      <div class="overlay_search">
+        <div class="container">
+          <div class="row">
+            <div class="form_search-wrap">
+              <form>
+                <input
+                  class="overlay_search-input"
+                  placeholder="Type and hit Enter..."
+                  type="text"
+                />
+                <a href="#" class="overlay_search-close">
+                  <span></span>
+                  <span></span>
+                </a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Overlay Search -->
+
+      <div class="container-fluid">
+        <div class="row pt120">
+          <div class="container">
+            <div class="row">
+              <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12"
+              >
+                <div class="heading align-center pb120">
+                  <h4 class="h1 heading-title">
+                    Local SEO That Brings Real Customers to Your Business
+                  </h4>
+                  <div class="heading-line">
+                    <span class="short-line"></span>
+                    <span class="long-line"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="local-seo">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <img
+                    loading="lazy"
+                    src="img/local-seo1.jpg"
+                    alt="F6IT Local SEO Strategy"
+                  />
+                  <img
+                    loading="lazy"
+                    src="img/local-seo2.jpg"
+                    alt="Google Maps Local SEO"
+                  />
+                  <img
+                    loading="lazy"
+                    src="img/local-seo-main.jpg"
+                    alt="Local SEO Growth for Businesses"
+                    class="shadow-image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row medium-padding120 bg-border-color">
+          <div class="container">
+            <div class="row align-center">
+              <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12"
+              >
+                <div class="h5 c-gray pt100">
+                  F6IT helps local businesses rank higher in local search
+                  results and Google Maps. We optimize your Google Business
+                  Profile, location-based keywords, and reviews to increase
+                  visibility, foot traffic, and local leads.
+                </div>
+
+                <div class="btn btn-medium btn--blue btn-hover-shadow mt60">
+                  <span class="text">Start Your Local SEO Campaign</span>
+                  <span class="semicircle"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row medium-padding120">
+          <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 mb30">
+            <img
+              loading="lazy"
+              src="img/local-seo3.jpg"
+              alt="F6IT Local SEO Services"
+            />
+          </div>
+
+          <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+            <div class="heading">
+              <h3 class="h3 heading-title">
+                Boost Your Local Visibility & Attract Nearby Customers
+              </h3>
+
+              <p>
+                F6IT helps local businesses stand out in local search results
+                through targeted Local SEO strategies. From Google Business
+                Profile optimization to local keywords and reputation
+                management, we drive more calls, visits, and leads for your
+                business.
+              </p>
+            </div>
+
+            <a
+              href="contacts.html"
+              class="btn btn-medium btn--light-green btn-hover-shadow"
+            >
+              <span class="text">Get a Free Local SEO Quote</span>
+              <span class="semicircle"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div class="container-fluid">
+        <div class="row medium-padding120 bg-boxed-black">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <div class="heading">
+                  <h4 class="h1 heading-title c-white">Our Core Expertise</h4>
+
+                  <div class="heading-line">
+                    <span class="short-line"></span>
+                    <span class="long-line"></span>
+                  </div>
+
+                  <p class="mb30">
+                    At F6IT, we combine strategy, creativity, and data-driven
+                    insights to deliver measurable digital growth. Our expertise
+                    helps brands improve visibility, engagement, and conversions
+                    across all major digital channels.
+                  </p>
+                </div>
+
+                <a
+                  href="21_seo_analysis.html"
+                  class="btn btn-medium btn--olive btn-hover-shadow mb30"
+                >
+                  <span class="text">Free SEO Consultation</span>
+                  <span class="semicircle"></span>
+                </a>
+              </div>
+
+              <div
+                class="col-lg-7 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12"
+              >
+                <div class="skills">
+                  <div class="skills-item">
+                    <div class="skills-item-info">
+                      <span class="skills-item-title"
+                        >Content Marketing Strategy</span
+                      >
+                      <span class="skills-item-count">
+                        <span
+                          class="count-animate"
+                          data-speed="1000"
+                          data-refresh-interval="50"
+                          data-to="75"
+                          data-from="0"
+                        ></span>
+                        <span class="units">%</span>
+                      </span>
+                    </div>
+                    <div class="skills-item-meter">
+                      <span
+                        class="skills-item-meter-active bg-orange-color border-orange-color"
+                        style="width: 75%"
+                      ></span>
+                    </div>
+                  </div>
+
+                  <div class="skills-item">
+                    <div class="skills-item-info">
+                      <span class="skills-item-title"
+                        >SEO & Digital Consulting</span
+                      >
+                      <span class="skills-item-count">
+                        <span
+                          class="count-animate"
+                          data-speed="1000"
+                          data-refresh-interval="50"
+                          data-to="90"
+                          data-from="0"
+                        ></span>
+                        <span class="units">%</span>
+                      </span>
+                    </div>
+
+                    <div class="skills-item-meter">
+                      <span
+                        class="skills-item-meter-active bg-green-color border-green-color"
+                        style="width: 90%"
+                      ></span>
+                    </div>
+                  </div>
+
+                  <div class="skills-item">
+                    <div class="skills-item-info">
+                      <span class="skills-item-title"
+                        >Mobile & Performance Marketing</span
+                      >
+                      <span class="skills-item-count">
+                        <span
+                          class="count-animate"
+                          data-speed="1000"
+                          data-refresh-interval="50"
+                          data-to="65"
+                          data-from="0"
+                        ></span>
+                        <span class="units">%</span>
+                      </span>
+                    </div>
+
+                    <div class="skills-item-meter">
+                      <span
+                        class="skills-item-meter-active bg-secondary-color border-secondary-color"
+                        style="width: 65%"
+                      ></span>
+                    </div>
+                  </div>
+
+                  <div class="skills-item">
+                    <div class="skills-item-info">
+                      <span class="skills-item-title"
+                        >Brand Reputation Management</span
+                      >
+                      <span class="skills-item-count">
+                        <span
+                          class="count-animate"
+                          data-speed="1000"
+                          data-refresh-interval="50"
+                          data-to="70"
+                          data-from="0"
+                        ></span>
+                        <span class="units">%</span>
+                      </span>
+                    </div>
+
+                    <div class="skills-item-meter">
+                      <span
+                        class="skills-item-meter-active bg-primary-color border-primary-color"
+                        style="width: 70%"
+                      ></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Skills -->
+
+      <!-- Testimonials Slider -->
+
+      <div class="container-fluid">
+        <div class="row medium-padding120 bg-border-color">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="testimonial-arrow-slider">
+                  <div class="heading">
+                    <h4 class="h1 heading-title">What Our Clients Say</h4>
+
+                    <div class="heading-line">
+                      <span class="short-line"></span>
+                      <span class="long-line"></span>
+                    </div>
+                  </div>
+
+                  <div class="swiper-container pagination-bottom">
+                    <div class="swiper-wrapper">
+                      <div class="case-slider-item swiper-slide">
+                        <div class="testimonial-item testimonial-arrow mb30">
+                          <div class="testimonial-text">
+                            F6IT helped us improve our Google rankings and
+                            generate consistent organic leads. Their SEO
+                            strategy delivered real results within months.
+                          </div>
+
+                          <div class="author-info-wrap table">
+                            <div class="testimonial-img-author table-cell">
+                              <img
+                                loading="lazy"
+                                src="img/avatar3.png"
+                                alt="client"
+                              />
+                            </div>
+                            <div class="author-info table-cell">
+                              <h6 class="author-name">Rahul Mehta</h6>
+                              <div class="author-company c-primary">
+                                E-Commerce Business Owner
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="quote">
+                            <i class="seoicon-quotes"></i>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="case-slider-item swiper-slide">
+                        <div class="testimonial-item testimonial-arrow mb30">
+                          <div class="testimonial-text">
+                            The F6IT team is highly professional and
+                            transparent. Our website traffic and conversions
+                            increased significantly after their SEO audit.
+                          </div>
+
+                          <div class="author-info-wrap table">
+                            <div class="testimonial-img-author table-cell">
+                              <img
+                                loading="lazy"
+                                src="img/avatar3.png"
+                                alt="client"
+                              />
+                            </div>
+                            <div class="author-info table-cell">
+                              <h6 class="author-name">Anita Sharma</h6>
+                              <div class="author-company c-primary">
+                                Startup Founder
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="quote">
+                            <i class="seoicon-quotes"></i>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="case-slider-item swiper-slide">
+                        <div class="testimonial-item testimonial-arrow mb30">
+                          <div class="testimonial-text">
+                            Thanks to F6IT’s Local SEO strategy, our business
+                            now appears on Google Maps and receives regular
+                            customer calls.
+                          </div>
+
+                          <div class="author-info-wrap table">
+                            <div class="testimonial-img-author table-cell">
+                              <img
+                                loading="lazy"
+                                src="img/avatar3.png"
+                                alt="client"
+                              />
+                            </div>
+                            <div class="author-info table-cell">
+                              <h6 class="author-name">Sandeep Verma</h6>
+                              <div class="author-company c-primary">
+                                Local Service Provider
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="quote">
+                            <i class="seoicon-quotes"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="heading mb60">
+                  <h4 class="h1 heading-title">Frequently Asked Questions</h4>
+
+                  <div class="heading-line">
+                    <span class="short-line"></span>
+                    <span class="long-line"></span>
+                  </div>
+                </div>
+
+                <div id="accordion" class="crumina-module crumina-accordion">
+                  <div class="card accordion-panel">
+                    <div class="card-header panel-heading" id="headingOne">
+                      <button
+                        class="btn-link accordion-heading"
+                        data-toggle="collapse"
+                        data-target="#collapseOne"
+                      >
+                        <span class="icon"
+                          ><i class="fa fa-angle-right"></i
+                        ></span>
+                        <span class="title"
+                          >How long does SEO take to show results?</span
+                        >
+                      </button>
+                    </div>
+
+                    <div
+                      id="collapseOne"
+                      class="panel-collapse collapse show"
+                      data-parent="#accordion"
+                    >
+                      <div class="card-body">
+                        <div class="panel-info">
+                          SEO is a long-term strategy. With F6IT, most clients
+                          start seeing improvements in rankings and traffic
+                          within 3–4 months, depending on competition.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card accordion-panel">
+                    <div class="card-header panel-heading" id="headingTwo">
+                      <button
+                        class="btn-link accordion-heading collapsed"
+                        data-toggle="collapse"
+                        data-target="#collapseTwo"
+                      >
+                        <span class="icon"
+                          ><i class="fa fa-angle-right"></i
+                        ></span>
+                        <span class="title"
+                          >Do you provide Local SEO services?</span
+                        >
+                      </button>
+                    </div>
+
+                    <div
+                      id="collapseTwo"
+                      class="panel-collapse collapse"
+                      data-parent="#accordion"
+                    >
+                      <div class="card-body">
+                        <div class="panel-info">
+                          Yes, F6IT specializes in Local SEO including Google
+                          Business Profile optimization, local keyword
+                          targeting, and review management.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card accordion-panel">
+                    <div class="card-header panel-heading" id="headingThree">
+                      <button
+                        class="btn-link accordion-heading collapsed"
+                        data-toggle="collapse"
+                        data-target="#collapseThree"
+                      >
+                        <span class="icon"
+                          ><i class="fa fa-angle-right"></i
+                        ></span>
+                        <span class="title">Is your SEO approach safe?</span>
+                      </button>
+                    </div>
+
+                    <div
+                      id="collapseThree"
+                      class="panel-collapse collapse"
+                      data-parent="#accordion"
+                    >
+                      <div class="card-body">
+                        <div class="panel-info">
+                          Absolutely. We follow only white-hat, Google-approved
+                          SEO techniques to ensure long-term and risk-free
+                          growth.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card accordion-panel">
+                    <div class="card-header panel-heading" id="headingFour">
+                      <button
+                        class="btn-link accordion-heading collapsed"
+                        data-toggle="collapse"
+                        data-target="#collapseFour"
+                      >
+                        <span class="icon"
+                          ><i class="fa fa-angle-right"></i
+                        ></span>
+                        <span class="title"
+                          >Can I get a free SEO consultation?</span
+                        >
+                      </button>
+                    </div>
+
+                    <div
+                      id="collapseFour"
+                      class="panel-collapse collapse"
+                      data-parent="#accordion"
+                    >
+                      <div class="card-body">
+                        <div class="panel-info">
+                          Yes! F6IT offers a free SEO consultation and website
+                          audit to help you understand your current performance
+                          and growth opportunities.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Testimonials Slider -->
+
+      <!-- Info Box -->
+
+      <div class="container-fluid">
+        <div class="row medium-padding120 bg-orange-color">
+          <div class="container">
+            <div class="row mb30">
+              <div
+                class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12"
+              >
+                <div class="heading align-center">
+                  <h4 class="h1 heading-title">
+                    Professional Tools for Business Growth
+                  </h4>
+                  <div class="heading-line">
+                    <span class="short-line bg-yellow-color"></span>
+                    <span class="long-line bg-yellow-color"></span>
+                  </div>
+                  <p class="heading-text c-white">
+                    We use proven digital tools and strategies to boost
+                    visibility, traffic, and conversions.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <!-- Box 1 -->
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="info-box--standard">
+                  <div class="info-box-image">
+                    <img
+                      loading="lazy"
+                      src="img/info-box23.png"
+                      alt="Keyword Research"
+                    />
+                  </div>
+                  <div class="info-box-content">
+                    <h5 class="info-box-title">Advanced Keyword Research</h5>
+                    <p class="text c-white">
+                      We identify high-impact keywords that your customers are
+                      actively searching for, helping your business rank higher
+                      and attract quality traffic.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Box 2 -->
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="info-box--standard">
+                  <div class="info-box-image">
+                    <img
+                      loading="lazy"
+                      src="img/info-box24.png"
+                      alt="Expert Team"
+                    />
+                  </div>
+                  <div class="info-box-content">
+                    <h5 class="info-box-title">
+                      Expert Digital Marketing Team
+                    </h5>
+                    <p class="text c-white">
+                      Our experienced team delivers result-driven SEO,
+                      marketing, and branding solutions tailored to grow your
+                      business effectively.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Info Box -->
+
+      <!-- Contact Form -->
+
+      <div class="container">
+        <div class="row medium-padding120">
+          <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+            <div class="heading">
+              <h4 class="h1 heading-title">
+                Check How SEO-Ready Your Website Is
+              </h4>
+              <div class="heading-line">
+                <span class="short-line"></span>
+                <span class="long-line"></span>
+              </div>
+
+              <h5 class="heading-subtitle">
+                Grow your business online with F6IT’s expert SEO & digital
+                marketing solutions.
+              </h5>
+
+              <p>
+                Our experienced SEO professionals analyze your website to
+                identify issues, improvement opportunities, and growth
+                strategies that drive higher rankings and better conversions.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+            <form
+              class="contact-form crumina-submit"
+              data-nonce="crumina-submit-form-nonce"
+              data-type="standard"
+              action=""
+            >
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                  <input
+                    name="site"
+                    class="input-standard-grey"
+                    placeholder="Website URL"
+                    type="text"
+                    required
+                  />
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                  <input
+                    name="name"
+                    class="input-standard-grey"
+                    placeholder="Your Name"
+                    type="text"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                  <input
+                    name="email"
+                    class="input-standard-grey"
+                    placeholder="Business Email Address"
+                    type="email"
+                    required
+                  />
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                  <input
+                    name="phone"
+                    class="input-standard-grey"
+                    placeholder="Phone Number"
+                    type="text"
+                  />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <textarea
+                    name="message"
+                    class="input-standard-grey"
+                    placeholder="Tell us about your business & goals"
+                  ></textarea>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="submit-block table">
+                  <div class="col-lg-3 table-cell">
+                    <button class="btn btn-small btn--primary">
+                      <span class="text">Get Free SEO Report</span>
+                    </button>
+                  </div>
+
+                  <div class="col-lg-5 table-cell">
+                    <div class="submit-block-text">
+                      Share any specific SEO concerns and the best time for us
+                      to contact you. Our F6IT experts will get back to you
+                      shortly.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Contact Form -->
+    </div>
 
     <!-- Footer -->
 

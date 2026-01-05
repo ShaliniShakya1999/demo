@@ -82,189 +82,139 @@
 
     <!-- Header -->
 
-      <header class="header" id="site-header">
-	<a href="#" id="top-bar-js" class="top-bar-link">
-		<i class="seosight-icon seoicon-arrow-to-bottom"></i>
-	</a>
+    <header class="header" id="site-header">
+      <a href="#" id="top-bar-js" class="top-bar-link">
+        <i class="seosight-icon seoicon-arrow-to-bottom"></i>
+      </a>
 
-	<div class="container">
+      <div class="container">
+        <div class="header-content-wrapper">
+          <div class="logo">
+            <a href="index.html" class="full-block-link"></a>
+            <img
+              loading="lazy"
+              style="width: 100px; height: 100px"
+              src="img/logo-eye.png"
+              alt="F6IT"
+            />
+          </div>
 
-		<div class="header-content-wrapper">
+          <nav id="primary-menu" class="primary-menu">
+            <a
+              href="javascript:void(0)"
+              id="menu-icon-trigger"
+              class="menu-icon-trigger showhide"
+            >
+              <span class="mob-menu--title">Menu</span>
+              <span
+                id="menu-icon-wrapper"
+                class="menu-icon-wrapper"
+                style="visibility: hidden"
+              >
+                <svg width="1000px" height="1000px">
+                  <path
+                    id="pathD"
+                    d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"
+                  ></path>
+                  <path id="pathE" d="M 300 500 L 700 500"></path>
+                  <path
+                    id="pathF"
+                    d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"
+                  ></path>
+                </svg>
+              </span>
+            </a>
 
-			<div class="logo">
-				<a href="index.html" class="full-block-link"></a>
-				<img loading="lazy" style="width: 100px;height: 100px;"  src="img/logo-eye.png" alt="F6IT">
-			
-			</div>
+            <!-- menu-icon-wrapper -->
 
-			<nav id="primary-menu" class="primary-menu">
+            <ul class="primary-menu-menu">
+              <li class="menu-item-has-children">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="menu-item-has-children">
+                <a href="abouts.html">About Us</a>
+              </li>
+              <li class="">
+                <a href="services.html">Services</a>
+                <ul class="dropdown">
+                  <li class="megamenu-item-info">
+                    <h5 class="megamenu-item-info-title">List of Services</h5>
+                    <p class="megamenu-item-info-text">Choose a Service</p>
+                  </li>
+                  <li class="hover-ver2">
+                    <a href="service_details_localseo.html"
+                      ><i class="seoicon-pin-map"></i>
+                      Local SEO
+                    </a>
+                  </li>
+                  <li class="hover-ver2">
+                    <a href="service_email_marketing.html"
+                      ><i class="seoicon-mail-send"></i>
+                      Email Marketing
+                    </a>
+                  </li>
+                  <li class="hover-ver2">
+                    <a href="service_detail.html"
+                      ><i class="seoicon-chat-comment"></i>
+                      Social Media Marketing
+                    </a>
+                  </li>
+                  <li class="menu-item-has-children hover-ver2">
+                    <a href="service_detail_seo.html">
+                      <i class="seoicon-search"></i>
+                      Search Engine Optimization
+                    </a>
+                  </li>
+                  <li class="hover-ver2">
+                    <a href="service_ppc_management.html"
+                      ><i class="seoicon-button"></i>
+                      Pay Per Click Management
+                    </a>
+                  </li>
+                </ul>
+              </li>
 
-				<a href='javascript:void(0)' id="menu-icon-trigger" class="menu-icon-trigger showhide">
-					<span class="mob-menu--title">Menu</span>
-					<span id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: hidden">
-						<svg width="1000px" height="1000px">
-							<path id="pathD" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
-							<path id="pathE" d="M 300 500 L 700 500"></path>
-							<path id="pathF" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
-						</svg>
-					</span>
-				</a>
+              <li class="">
+                <a href="contacts.html">Contacts</a>
+              </li>
+            </ul>
+          </nav>
 
-				<!-- menu-icon-wrapper -->
+          <ul class="nav-add">
+            <li class="cart">
+              <a href="#" class="js-cart-animate">
+                <i class="seoicon-basket"></i>
+                <span class="cart-count">0</span>
+              </a>
 
-				<ul class="primary-menu-menu">
-					<li class="menu-item-has-children">
-						<a href="index.html">Home</a>
-					</li>
+              <div class="cart-popup-wrap">
+                <div class="popup-cart">
+                  <h4 class="title-cart">No products in the cart!</h4>
+                  <p class="subtitle">Please make your choice.</p>
+                  <div class="btn btn-small btn--dark">
+                    <span class="text">view all catalog</span>
+                  </div>
+                </div>
+              </div>
+            </li>
 
-					<li class="">
-						<a href="services.html">Services</a>
-						<ul class="dropdown">
-							<li class="megamenu-item-info">
-								<h5 class="megamenu-item-info-title">List of Services</h5>
-								<p class="megamenu-item-info-text">Choose a Service</p>
-							</li>
-							<li class="hover-ver2">
-								<a href="service_details_localseo.html"><i class="seoicon-pin-map"></i>
-									Local SEO
-								</a>
-							</li>
-							<li class="hover-ver2">
-								<a href="service_email_marketing.html"><i class="seoicon-mail-send"></i>
-									Email Marketing
-								</a>
-							</li>
-							<li class="hover-ver2">
-								<a href="service_detail.html"><i class="seoicon-chat-comment"></i>
-									Social Media Marketing
-								</a>
-							</li>
-							<li class="menu-item-has-children hover-ver2">
-								<a href="service_detail_seo.html">
-									<i class="seoicon-search"></i>
-									Search Engine Optimization
-								</a>
-							</li>
-							<li class="hover-ver2">
-								<a href="service_ppc_management.html"><i class="seoicon-button"></i>
-									Pay Per Click Management
-								</a>
-							</li>
-						
-						</ul>
-					</li>
+            <li class="search search_main">
+              <a href="#" class="js-open-search">
+                <i class="seoicon-loupe"></i>
+              </a>
+            </li>
+          </ul>
 
-					<li class="">
-						<a href="#">Case Studies</a>
-						<ul class="dropdown">
-							<li class="">
-								<a href="case_studies.html">
-									Case Studies Page
-									<i class="seoicon-right-arrow"></i>
-								</a>
-							</li>
-
-						
-							<li class="">
-								<a href="project_details_ver_02.html">
-									Project details ver2
-									<i class="seoicon-right-arrow"></i>
-								</a>
-							</li>
-						</ul>
-					</li>
-
-					<li class="has-megamenu menu-item-has-children">
-						<a href="#">Pages</a>
-
-						<div class="megamenu" style="background-image: url('img/menu-bg.png');">
-							<div class="megamenu-row">
-
-								<div class="col6">
-									<ul>
-										<li class="megamenu-item-info">
-											<h5 class="megamenu-item-info-title">Standard Pages</h5>
-											<p class="megamenu-item-info-text">Pages that every website needs.</p>
-										</li>
-
-										<li>
-											<a href="abouts.html">Our Agency<i class="seoicon-right-arrow"></i></a>
-										</li>
-									
-
-
-										<li>
-											<a href="our_clients.html">Our Special Clients<i class="seoicon-right-arrow"></i></a>
-										</li>
-
-									</ul>
-								</div>
-
-
-
-								<div class="col6">
-									<ul>
-										<li>
-											<div class="google-logo">
-												<img loading="lazy" src="img/google-logo.png" alt="logo">
-											</div>
-
-											<p class="google-text">At F6IT – SEO & Digital Marketing, we combine SEO, paid advertising, and performance marketing to help businesses reach the right audience, generate quality leads, and achieve measurable growth.
-											</p>
-										</li>
-									</ul>
-								</div>
-
-							</div>
-						</div>
-					</li>
-
-
-					<li class="">
-						<a href="contacts.html">Contacts</a>
-					</li>
-				</ul>
-			</nav>
-
-			<ul class="nav-add">
-				<li class="cart">
-
-					<a href="#" class="js-cart-animate">
-						<i class="seoicon-basket"></i>
-						<span class="cart-count">0</span>
-					</a>
-
-					<div class="cart-popup-wrap">
-						<div class="popup-cart">
-							<h4 class="title-cart">No products in the cart!</h4>
-							<p class="subtitle">Please make your choice.</p>
-							<div class="btn btn-small btn--dark">
-								<span class="text">view all catalog</span>
-							</div>
-						</div>
-					</div>
-
-				</li>
-
-				<li class="search search_main">
-					<a href="#" class="js-open-search">
-						<i class="seoicon-loupe"></i>
-					</a>
-				</li>
-			</ul>
-
-			<div class="user-menu open-overlay">
-				<a href="#" class="user-menu-content  js-open-aside">
-					<span></span>
-					<span></span>
-					<span></span>
-				</a>
-			</div>
-		</div>
-
-	</div>
-
-</header>
+          <div class="user-menu open-overlay">
+            <a href="#" class="user-menu-content js-open-aside">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
 
     <!-- ... End Header -->
 
@@ -282,12 +232,17 @@
 
           <div class="logo">
             <a href="index.html" class="full-block-link"></a>
-            <img loading="lazy"style="width: 100px;height: 100px;"  src="img/logo-eye.png" alt="F6IT" />
-           
+            <img
+              loading="lazy"
+              style="width: 100px; height: 100px"
+              src="img/logo-eye.png"
+              alt="F6IT"
+            />
           </div>
 
           <p class="text">
-           We implement data-driven SEO and digital marketing strategies that consistently attract, engage, and convert the right audience.
+            We implement data-driven SEO and digital marketing strategies that
+            consistently attract, engage, and convert the right audience.
           </p>
         </div>
 
@@ -329,7 +284,9 @@
         <div class="widget contacts">
           <h4 class="contacts-title">Get In Touch</h4>
           <p class="contacts-text">
-           We boost your online presence with powerful SEO and digital marketing strategies that deliver real results. </p>
+            We boost your online presence with powerful SEO and digital
+            marketing strategies that deliver real results.
+          </p>
 
           <div class="contacts-item">
             <img loading="lazy" src="img/contact4.png" alt="phone" />
